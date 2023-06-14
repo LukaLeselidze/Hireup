@@ -1,0 +1,276 @@
+.submit_job_section {
+  padding: 6rem 5% 12rem;
+  background-image: url("https://assets.website-files.com/63337525695d8ba70ab44222/6347943bf995c7696797d5a5_Auth%20Background%20Pattern%20Right.svg"),
+    url("https://assets.website-files.com/63337525695d8ba70ab44222/6347943b5ddec911ffc5355a_Auth%20Background%20Pattern%20Left.svg");
+  background-position: 0px 0px, 100% 0%;
+  background-size: auto, auto;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.submit_job_content {
+  width: 100%;
+  max-width: 96rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.submit_top_content {
+  max-width: 47rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.submit_top_content h2 {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-family: "Archivo", sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.submit_top_content p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  letter-spacing: -0.02em;
+  margin-bottom: 7.6rem;
+}
+
+.job_form {
+  background-color: #f9f9fb;
+  padding: 8% 5%;
+}
+
+.job_form_wrapper {
+  display: flex;
+  column-gap: 4.8rem;
+}
+
+.job_from_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.job_from_section label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  display: block;
+}
+
+.job_form_number {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebef;
+  border-radius: 100%;
+  background-color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 4.8rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 14rem;
+}
+
+.job_form_number div {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.job_from_section input {
+  height: 4.8rem;
+  margin-bottom: 2.4rem;
+  padding: 1.2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebef;
+  font-size: 1.4rem;
+  line-height: 1.42857143;
+  color: #333333;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-color: #ebebef;
+}
+
+.job_from_section input:focus {
+  border-color: #443fde;
+}
+
+.job_form_margin {
+  margin-bottom: 2.4rem;
+}
+
+.job_form_margin h5 {
+  font-size: 2.4rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.job_from_section {
+  padding-top: 0.8rem;
+}
+
+.submit_form input {
+  transition: all 500ms cubic-bezier(0.6, 0.6, 0, 1);
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.02em;
+  background-color: #443fde;
+  width: 100%;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 0;
+  text-decoration: none;
+  border: 0;
+}
+
+.submit_form input:hover {
+  background-color: #3935b6;
+}
+
+.submit_form input:active {
+  background-color: #28257e;
+}
+
+.margin_bottom_48 {
+  margin-bottom: 4.8rem;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+
+.active_answer {
+  max-height: 30rem;
+  transition: max-height 1.4s ease;
+}
+
+.faq_wrap {
+  background-color: #f7f7fa;
+  padding: 10rem 5%;
+}
+
+.faq_container {
+  max-width: 96rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.faq_title_wrap {
+  max-width: 63rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 7.2rem;
+}
+
+.faq_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq_margin_12 {
+  margin-bottom: 1.2rem;
+}
+
+.faq_about {
+  color: #443fde;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.question {
+  margin-bottom: 0px;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  font-family: "Archivo", sans-serif;
+}
+
+.faq_main_header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Archivo, sans-serif;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.faq_block {
+  padding: 2.4rem;
+  cursor: pointer;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.2rem;
+  overflow: hidden;
+}
+
+.faq_answer {
+  margin-top: 1.6rem;
+  color: #3e404c;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+
+.active_dropdown {
+  transform: rotate(180deg);
+  transition: transform 0.5s ease-in;
+}
+
+.dropdown {
+  transition: transform 0.5s ease-in;
+}
+
+.success_message {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  background-color: #4640de;
+  color: #fff;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+select {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: "Inters", sans-serif;
+}
+
+option {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .job_form_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

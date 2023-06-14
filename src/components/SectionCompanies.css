@@ -1,0 +1,258 @@
+.section_companies_container {
+  padding: 13.8rem 5%;
+  background-color: #fff;
+}
+
+.section_companies_content {
+  width: 100%;
+  max-width: 111.4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top_first h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.top_second p {
+  color: hsl(229, 10%, 42%);
+  margin-bottom: 0px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+}
+
+.companies_carrousel {
+  margin-top: 4rem;
+  display: flex;
+  gap: 5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.companies_buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.behind {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebef;
+  background-color: #fff;
+  color: #d6d7e0;
+  width: 4.8rem;
+  height: 4.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.behind img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.next {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebef;
+  background-color: #fff;
+  color: #d6d7e0;
+  width: 4.8rem;
+  height: 4.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.behind:hover {
+  background-color: #ebecf0;
+  transition: background-color 200ms ease;
+}
+
+.next:hover {
+  background-color: #ebecf0;
+  transition: background-color 200ms ease;
+}
+
+.next img {
+  width: 2.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+}
+
+.top_second {
+  margin-top: -2.5rem;
+  margin-bottom: 2rem;
+}
+
+.company a {
+  color: #030407;
+  text-decoration: none;
+  padding: 2.8rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebef;
+  background-color: #fff;
+  width: 35rem;
+
+  display: block;
+}
+
+.company_logo {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebef;
+  background-color: #fff;
+  width: 5.6rem;
+  height: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company_logo img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.company_top {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.company_name {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.company_middle p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  letter-spacing: -0.02em;
+  color: #3e404c;
+}
+
+.company_employees {
+  color: #246b49;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #f1f8f4;
+  margin-top: 2rem;
+  grid-column-gap: 0.4rem;
+  display: inline-flex;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.carousel-items {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item-image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80%;
+}
+
+.carousel-item-title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.carousel-item-description {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.carousel-button-prev {
+  left: 20px;
+}
+
+.carousel-button-next {
+  right: 20px;
+}
+
+.carousel-button i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.carousel-button-prev i {
+  transform: rotate(180deg);
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.carousel button {
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .companies_buttons {
+    position: relative;
+  }
+
+  .behind {
+    position: absolute;
+    top: -8rem;
+    right: 7rem;
+    bottom: auto;
+  }
+
+  .next {
+    position: absolute;
+    top: -8rem;
+    right: 0%;
+    bottom: auto;
+  }
+}

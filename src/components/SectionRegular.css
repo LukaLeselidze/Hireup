@@ -1,0 +1,134 @@
+.section_regular{
+    padding: 10rem 5%;
+}
+
+.section_regular_content{
+    max-width: 111.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.regular_section_regular_content{
+    max-width: 111.4rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.regular_section_main_picture{
+    height: 54rem;
+    align-self: center;
+}
+
+.regular_section_main_picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ebebef;
+    width: 10rem;
+    height: 5.6rem;
+}
+
+.feature_icon img{
+    width: 2.4rem;
+    height: 2.4rem;
+    max-width: 100%;
+}
+
+.feature_content{
+    padding: 1.6rem;
+    display: flex;
+    align-items: flex-start;
+    background-color: #f9f9fb;
+    column-gap: 1.6rem;
+
+}
+
+
+
+.feature_point{
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.8;
+    font-size: 1.6rem;
+}
+
+.feature_p p{
+    color: #606476;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+}
+
+.regular_section_features_list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2rem;
+}
+
+.first_text {
+    margin-bottom: 1.2rem;
+}
+
+
+.first_text h4{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #443fde;;
+    line-height: 1.8;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.regular_section_header_text{
+    margin-bottom: 2.4rem;
+}
+
+.regular_section_header_text h2{
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-family: 'Archivo', sans-serif;
+}
+
+.regular_section_p{
+    margin-bottom: 6rem;
+}
+
+.regular_section_p p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    letter-spacing: -0.02em;
+    color: #3e404c;
+}
+
+
+.regular_section_features_list{
+    margin-top: 4.4rem;
+}
+
+.regular_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10.4rem;
+    grid-auto-columns: 1fr;
+    grid-template-rows: auto ;
+}
+
+@media screen and (max-width: 991px) {
+    .regular_grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+

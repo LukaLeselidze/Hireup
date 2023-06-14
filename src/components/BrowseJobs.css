@@ -1,0 +1,231 @@
+.browse_jobs_header {
+  padding: 4.8rem 5%;
+}
+
+.browse_jobs_container {
+  max-width: 74rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.browse_title_wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 61rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.margin_bottom_16 h2 {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "Archivo", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: -0.02em;
+}
+
+.browse_title_wrap p {
+  color: #3e404c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+
+.browse_search {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebebef;
+  background-color: #fff;
+  display: flex;
+  max-width: 61rem;
+  width: 100%;
+  padding: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 0.8rem;
+  position: relative;
+  z-index: 23;
+}
+
+.search_input_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search_field {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  font-size: 1.4rem;
+  background-color: #ffffff;
+  border: 1px none #000;
+  margin-bottom: 0px;
+  outline: none;
+}
+
+.saerch_button {
+  padding: 1rem 3.2rem;
+  background-color: #443fde;
+  transition: all 500ms cubic-bezier(0.6, 0.6, 0, 1);
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.02em;
+  border: 0;
+  cursor: pointer;
+}
+
+.saerch_button:hover {
+  background-color: #3935b6;
+}
+
+.saerch_button:active {
+  background-color: #28257e;
+}
+
+.browse_grid {
+  grid-template-columns: 1fr 2.5fr;
+  grid-row-gap: 3.2rem;
+  grid-column-gap: 6.4rem;
+  margin-top: 7.2rem;
+  display: grid;
+}
+
+.jobs_list_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2.4rem;
+  grid-row-gap: 2.4rem;
+  grid-auto-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.browsed_jobs_wrap {
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: -7rem;
+}
+
+.browsed_jobs_section {
+  padding: 6rem 3% 10rem;
+  background-color: #f9f9fb;
+}
+
+.filters_title_wrap {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.filters_title_wrap div {
+  margin-bottom: 0px;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #443fde;
+}
+
+.filter_click {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.filter_name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-left: 1rem;
+}
+
+.dropdown_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  visibility: hidden;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+
+.dropdown_content_active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  max-height: 30rem;
+  transition: max-height 1.4s ease;
+}
+
+.category_name {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  font-size: 1.6rem;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+}
+
+.category_name:hover {
+  opacity: 0.8;
+}
+
+.category_amount {
+  font-size: 1.4rem;
+}
+
+.dropdown_list {
+  margin-top: 1rem;
+}
+
+.job_not {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  color: #443fde;
+}
+
+@media screen and (max-width: 479px) {
+  .browse_grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .browse_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .jobs_list_grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .browse_grid {
+    grid-template-columns: 1fr;
+    grid-column-gap: 1.6rem;
+  }
+
+  .browsed_jobs_list {
+    margin-top: -15rem;
+  }
+
+  .browsed_jobs_list_short {
+    margin-top: 13rem;
+  }
+}
